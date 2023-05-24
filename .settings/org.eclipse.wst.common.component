@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="20mcme22_DBMSLab">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-2.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Downloads/jakarta.servlet.jsp.jstl-2.0.0.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="tomcat-juli.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Desktop/tomcat-10/bin/tomcat-juli.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="bootstrap.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Desktop/tomcat-10/bin/bootstrap.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-api-2.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Downloads/jakarta.servlet.jsp.jstl-api-2.0.0.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="commons-daemon.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Desktop/tomcat-10/bin/commons-daemon.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jsp-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Desktop/tomcat-10/lib/jsp-api.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Desktop/tomcat-10/lib/servlet-api.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.33.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/deepika/Downloads/mysql-connector-j_8.0.33-1ubuntu20.04_all/data/usr/share/java/mysql-connector-java-8.0.33.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="20mcme22_DBMSLab"/>
+                
+        <property name="java-output-path" value="/20mcme22_DBMSLab/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
